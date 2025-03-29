@@ -1,4 +1,4 @@
-# Functionalities of a API Gateway
+# Main functionalities of an API Gateway
 
 - [ ] Authentication
 - [ ] Security policy enforcements
