@@ -40,6 +40,7 @@ async fn main() -> std::io::Result<()> {
             .route("/healthcheck", web::get().to(health_check))
             .service(web::scope("/internals").route("/docs", web::get().to(docs)))
     })
+    .workers(3)
     .bind(("127.0.0.1", 8080))?
     .run()
     .await
