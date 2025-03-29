@@ -1,11 +1,12 @@
 # Main functionalities of an API Gateway
 
-- [ ] Authentication
+- [ ] Request routing
+- [ ] Authentication and authorization
 - [ ] Security policy enforcements
 - [ ] Load balancing
 - [ ] Circuit breaking
 - [ ] Error handling
-- [ ] Protocol translation
+- [ ] Protocol (request and response) translation/transformation
 - [ ] Service discovery
 - [ ] Minitoring
 - [ ] Logging
